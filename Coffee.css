@@ -1,0 +1,173 @@
+#coffee {
+    display:inline-block;
+    position:relative;
+    top:-8px;
+    margin:35px 90px 45px 5px;
+    background: #212121;
+    height: 5px;
+    width: 5px;
+    box-shadow: 5px  0     0 #212121,
+                10px 0     0 #212121,
+                15px 0     0 #212121,
+                20px 0     0 #212121,
+                25px 0     0 #212121,
+                30px 0     0 #212121,
+                35px 0     0 #212121,
+                40px 0     0 #212121,
+                45px 0     0 #212121,
+                50px 0     0 #212121,
+                55px 0     0 #212121,
+                60px 0     0 #212121,
+                65px 0     0 #212121,
+                70px 0     0 #212121,
+                0    5px   0 #212121,
+                5px  5px   0 ghostwhite,
+                10px 5px   0 #212121,
+                15px 5px   0 #212121,
+                20px 5px   0 #212121,
+                25px 5px   0 #212121,
+                30px 5px   0 #212121,
+                35px 5px   0 #212121,
+                40px 5px   0 #212121,
+                45px 5px   0 #212121,
+                50px 5px   0 #212121,
+                55px 5px   0 #212121,
+                60px 5px   0 #212121,
+                65px 5px   0 ghostwhite,
+                70px 5px   0 #212121,
+                75px 5px   0 #212121,
+                80px 5px   0 #212121,
+                0    10px  0 #212121,
+                5px  10px  0 ghostwhite,
+                30px 20px 0 20px ghostwhite,
+                40px 20px 0 20px ghostwhite,
+                65px 10px  0 ghostwhite,
+                70px 10px  0 ghostwhite,
+                75px 10px  0 ghostwhite,
+                80px 10px  0 ghostwhite,
+                85px 10px  0 #212121,
+                0    15px  0 #212121,
+                5px  15px  0 ghostwhite,
+                65px 15px  0 ghostwhite,
+                70px 15px  0 #212121,
+                75px 15px  0 #212121,
+                80px 15px  0 ghostwhite,
+                85px 15px  0 #212121,
+                0    20px  0 #212121,
+                5px  20px  0 ghostwhite,
+                65px 20px  0 ghostwhite,
+                70px 20px  0 #212121,
+                75px 20px  0 #212121,
+                80px 20px  0 ghostwhite,
+                85px 20px  0 #212121,
+                0    25px  0 #212121,
+                5px  25px  0 ghostwhite,
+                65px 25px  0 ghostwhite,
+                70px 25px  0 ghostwhite,
+                75px 25px  0 ghostwhite,
+                80px 25px  0 ghostwhite,
+                85px 25px  0 #212121,
+                0    30px  0 #212121,
+                5px  30px  0 ghostwhite,
+                65px 30px  0 ghostwhite,
+                70px 30px  0 #212121,
+                75px 30px  0 #212121,
+                80px 30px  0 #212121,
+                5px  35px  0 #212121,
+                65px 35px  0 #212121,
+                5px  40px  0 #212121,
+                65px 40px  0 #212121,
+                10px 45px  0 #212121,
+                15px 45px  0 #212121,
+                20px 45px  0 #212121,
+                25px 45px  0 #212121,
+                30px 45px  0 #212121,
+                35px 45px  0 #212121,
+                40px 45px  0 #212121,
+                45px 45px  0 #212121,
+                50px 45px  0 #212121,
+                55px 45px  0 #212121,
+                60px 45px  0 #212121;
+}
+
+#coffee:before {
+  content:'';
+  width:4px;
+  height:20px;
+  display:block;
+  background:transparent;
+  position:absolute;
+  left:20px;
+  box-shadow: 10px 0 6px #cacaca;
+  animation-name: smoke;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+#coffee:after {
+  content:'';
+  width:4px;
+  height:20px;
+  display:block;
+  background:transparent;
+  position:absolute;
+  left:45px;
+  box-shadow: 10px 0 6px #cacaca;
+  animation-name: smoke;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes smoke {
+    0%   {opacity: 0; top:-15px;}
+    50%  {opacity: 1; transform: rotate(3deg);}
+    100% {opacity: 0; top:-35px; transform: rotate(6deg);}
+}
+
+#heart {
+    display:inline-block;
+    width:3px;
+    height:3px;
+    background-color:#212121;
+    box-shadow: 30px 3px  0 #000,
+                33px 3px  0 #000,
+                39px 3px  0 #000,
+                42px 3px  0 #000,
+                45px 3px  0 #000,
+                27px 6px  0 #000,
+                30px 6px  0 #fff,
+                33px 6px  0 tomato,
+                36px 6px  0 #000,
+                39px 6px  0 tomato,
+                42px 6px  0 tomato,
+                45px 6px  0 crimson,
+                48px 6px  0 #000,
+                27px 9px  0 #000,
+                30px 9px  0 #fff,
+                33px 9px  0 tomato,
+                36px 9px  0 tomato,
+                39px 9px  0 tomato,
+                42px 9px  0 tomato,
+                45px 9px  0 crimson,
+                48px 9px  0 #000,
+                27px 12px  0 #000,
+                30px 12px  0 tomato,
+                33px 12px  0 tomato,
+                36px 12px  0 tomato,
+                39px 12px  0 tomato,
+                42px 12px  0 tomato,
+                45px 12px  0 crimson,
+                48px 12px  0 #000,
+                30px 15px  0 #000,
+                33px 15px  0 tomato,
+                36px 15px  0 tomato,
+                39px 15px  0 tomato,
+                42px 15px  0 crimson,
+                45px 15px  0 #000,
+                33px 18px  0 #000,
+                36px 18px  0 crimson,
+                39px 18px  0 crimson,
+                42px 18px  0 #000,
+                36px 21px  0 #000,
+                39px 21px  0 #000;
+}
